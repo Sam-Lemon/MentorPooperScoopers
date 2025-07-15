@@ -1,0 +1,21 @@
+Form Submission - Formspree.io
+        https://formspree.io/forms/xldnqvdj/integration
+reCAPTCHA - Google reCAPTCHA
+        https://www.google.com/recaptcha/admin/site/729805077/settings
+Icons - https://fontawesome.com/
+Fonts - Google Fonts    
+    Bree Serif
+    DM Sans
+
+
+
+
+
+
+
+
+
+
+
+
+
