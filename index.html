@@ -28,7 +28,7 @@
         alt="Mentor Pooper Scoopers logo with cartoon dog, poop emoji, and rake."
       />
       <nav>
-        <a href="#home" class="nav-button">Home</a>
+        <a href="#main-content" class="nav-button">Home</a>
         <a href="#services" class="nav-button">Services</a>
         <a href="#pricing" class="nav-button">Pricing</a>
       </nav>
@@ -47,7 +47,7 @@
       </svg>
     </div>
     <!-- Hero Section -->
-    <main class="hero">
+    <main id="main-content" class="hero">
       <div class="hero-content">
         <h2>Need some poop scooped?</h2>
         <h1>
@@ -67,11 +67,11 @@
       </p>
     </section>
     <section class="services" id="services">
-      <h1>Our Services</h1>
+      <h2>Our Services</h2>
       <div class="offerings">
         <div>
           <i class="fa-solid fa-house"></i>
-          <h2>At Home</h2>
+          <h3>At Home</h3>
           <p>
             We provide pet waste removal services at your home&mdash;weekly,
             bi-weekly, or upon request&mdash; throughout NE Ohio.
@@ -79,7 +79,7 @@
         </div>
         <div>
           <i class="fa-solid fa-paw"></i>
-          <h2>Animals We Serve</h2>
+          <h3>Animals We Serve</h3>
           <p>
             We'll pick up after your cats and dogs. More exotic pets are on a
             case by case basis.
@@ -87,7 +87,7 @@
         </div>
         <div>
           <i class="fa-solid fa-tree-city"></i>
-          <h2>Our Community</h2>
+          <h3>Our Community</h3>
           <p>
             Our team cleans up pet waste in apartment communities, parks, and
             public areas.
@@ -246,8 +246,11 @@
             name="name"
             placeholder="Name*"
             required
-            aria-required="true"
+            aria-describedby="nameHelp"
           />
+          <small id="nameHelp" class="sr-only"
+            >Please enter your full name.</small
+          >
 
           <label for="email" class="sr-only">Email*</label>
           <input
@@ -256,8 +259,11 @@
             name="email"
             placeholder="Email*"
             required
-            aria-required="true"
+            aria-describedby="emailHelp"
           />
+          <small id="emailHelp" class="sr-only"
+            >Please enter a valid email address.</small
+          >
 
           <label for="message" class="sr-only">Message*</label>
           <textarea
@@ -267,8 +273,11 @@
             maxlength="500"
             placeholder="Your message here.*"
             required
-            aria-required="true"
+            aria-describedby="messageHelp"
           ></textarea>
+          <small id="messageHelp" class="sr-only"
+            >Please enter a message with a maximum of 500 characters.</small
+          >
 
           <!-- Honeypot field: hidden from users -->
           <label for="website" class="honeypot"

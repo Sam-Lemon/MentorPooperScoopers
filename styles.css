@@ -205,7 +205,7 @@ header nav a:active {
   text-align: center;
 }
 
-.services h1 {
+.services h2 {
   font-size: 2rem;
   font-family: "Bree Serif", serif;
   letter-spacing: 1.25px;
@@ -232,7 +232,7 @@ header nav a:active {
   margin-bottom: 10px;
 }
 
-.offerings div h2 {
+.offerings div h3 {
   font-size: 1.25rem;
   font-family: "Bree Serif", serif;
   margin: 10px 0;
