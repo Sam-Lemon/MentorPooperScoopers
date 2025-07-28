@@ -1,0 +1,68 @@
+/***** Root Variables *****/
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-bg: #f7fdf9;
+  --primary-text: #163d10;
+
+  --secondary-bg: #cbdc98;
+  --secondary-text: #488179c1;
+
+  --accent-color: #e9ede7;
+
+  --hover-bg: #dce7c3;
+  --active-bg: #b5c178;
+  --focus-ring: #a2b267;
+}
+
+/***** Global *****/
+body {
+  max-width: 700px;
+  margin: 40px auto;
+  padding: 0 20px;
+  line-height: 1.6;
+  background-color: var(--primary-bg);
+  color: var(--primary-text);
+  font-family: "DM Sans", sans-serif;
+}
+
+h1 {
+  text-align: center;
+  margin-bottom: 1rem;
+}
+
+h2 {
+  margin-top: 2rem;
+  margin-bottom: 0.5rem;
+}
+
+h1, h2 {
+      font-family: "Bree Serif", serif;
+}
+
+.back-button-container {
+  text-align: right;
+  margin-bottom: 2rem;
+}
+
+.back-button {
+  display: inline-block;
+  margin-bottom: 2rem;
+  padding: 0.5rem 1rem;
+  background-color: #0055aa;
+  color: white;
+  text-decoration: none;
+  border-radius: 4px;
+  font-weight: bold;
+  transition: background-color 0.3s ease;
+}
+
+.back-button:hover,
+.back-button:focus {
+  background-color: #003d7a;
+  outline: none;
+}
