@@ -357,7 +357,7 @@ header nav a:active {
   flex-direction: column;
   gap: 40px;
   align-items: center;
-  margin-top: 50px;
+  margin-top: 0px;
 }
 
 /***** Footer *****/
@@ -407,9 +407,25 @@ footer {
   font-size: 1.5rem;
 }
 
-.social-links a:hover {
+.social-links a,
+.privacy-policy a {
+  color: var(--primary-text);
+}
+
+.social-links a:hover,
+.privacy-policy a:hover {
   color: rgba(0, 0, 0, 0.3);
 }
+
+.social-links a:visited, 
+.privacy-policy a:visited {
+  color: var(--primary-text);
+}
+
+.privacy-policy a {
+  text-decoration: none;
+}
+
 
 /* Form */
 .form-container {
@@ -467,7 +483,7 @@ footer {
 }
 
 .contact-form input[type="submit"]:hover {
-  background-color: var(--hover-bg);
+  background-color: var(--secondary-text);
   transform: translateY(-1px);
 }
 
