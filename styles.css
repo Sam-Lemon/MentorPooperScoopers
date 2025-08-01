@@ -216,6 +216,7 @@ header nav a:active {
   gap: 30px;
   width: 100%;
   max-width: 1000px;
+  font-family: "DS Sans", sans-serif;
 }
 
 .offerings div {
@@ -325,6 +326,32 @@ header nav a:active {
   text-decoration-color: var(--primary-text);
 }
 
+.table-wrapper {
+  width: 100%;
+  overflow-x: auto;
+  -webkit-overflow-scrolling: touch;
+
+  background: linear-gradient(to right, var(--secondary-bg) 0%, transparent 5%),
+    linear-gradient(to left, var(--secondary-bg) 100%, transparent 95%);
+  background-size: 100% 100%;
+  background-repeat: no-repeat;
+}
+
+.table-wrapper::after {
+  content: "";
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  width: 20px;
+  background: linear-gradient(to left, var(--secondary-bg), transparent);
+  pointer-events: none;
+}
+
+.table-wrapper table {
+  min-width: 400px;
+}
+
 .pricing-style table {
   width: 100%;
   border-collapse: collapse;
@@ -417,7 +444,7 @@ footer {
   color: rgba(0, 0, 0, 0.3);
 }
 
-.social-links a:visited, 
+.social-links a:visited,
 .privacy-policy a:visited {
   color: var(--primary-text);
 }
@@ -430,9 +457,8 @@ footer {
 .copyright {
   text-align: center;
   font-family: "DS Sans", sans-serif;
-  font-size: .75rem;
+  font-size: 0.75rem;
 }
-
 
 /* Form */
 .form-container {

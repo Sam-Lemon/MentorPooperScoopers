@@ -79,6 +79,7 @@
     <meta name="robots" content="index, follow" />
   </head>
   <body>
+    <!-- Nav Bar -->
     <header id="home">
       <img
         class="logo"
@@ -92,6 +93,7 @@
         <a href="#pricing" class="nav-button">Service Pricing</a>
       </nav>
     </header>
+
     <!-- Wave SVG -->
     <div class="wave" aria-hidden="true">
       <svg
@@ -105,6 +107,7 @@
         />
       </svg>
     </div>
+
     <!-- Hero Section -->
     <main id="main-content" class="hero">
       <div class="hero-content">
@@ -125,6 +128,8 @@
         where your pet left off.
       </p>
     </section>
+
+    <!-- Services Section -->
     <section class="services" id="services">
       <h2>Our Services</h2>
       <div class="offerings">
@@ -161,69 +166,74 @@
         <p>Call us today to set up your cleanup!</p>
       </div>
     </section>
+
+    <!-- Pricing Section -->
     <section class="pricing" id="pricing">
       <div class="pricing-style">
         <h3>Cleanup Service Pricing</h3>
-        <table>
-          <caption class="sr-only">
-            Cleanup Service Pricing
-          </caption>
-
-          <thead>
-            <tr>
-              <th scope="col"># of Pets</th>
-              <th scope="col">Once Weekly</th>
-              <th scope="col">Bi-Weekly</th>
-              <th scope="col">Single Cleanup</th>
-            </tr>
-          </thead>
-          <tbody>
-            <tr>
-              <td>1 Pet</td>
-              <td>$15</td>
-              <td>$25</td>
-              <td>$50+</td>
-            </tr>
-            <tr>
-              <td>2 Pets</td>
-              <td>$20</td>
-              <td>$35</td>
-              <td>$50+</td>
-            </tr>
-            <tr>
-              <td>3+ Pets</td>
-              <td>$25</td>
-              <td>$45</td>
-              <td>$50+</td>
-            </tr>
-          </tbody>
-        </table>
-      </div>
-      <div class="pricing-container">
-        <div class="pricing-style">
-          <h3>One-Time Cleanups</h3>
-
+        <div class="table-wrapper">
           <table>
             <caption class="sr-only">
-              One-Time Cleanup Pricing
+              Cleanup Service Pricing
             </caption>
 
+            <thead>
+              <tr>
+                <th scope="col"># of Pets</th>
+                <th scope="col">Once Weekly</th>
+                <th scope="col">Bi-Weekly</th>
+                <th scope="col">Single Cleanup</th>
+              </tr>
+            </thead>
             <tbody>
               <tr>
-                <th scope="row">Small Yard / Light Waste</th>
-                <td>$30</td>
+                <td>1 Pet</td>
+                <td>$15</td>
+                <td>$25</td>
+                <td>$50+</td>
               </tr>
               <tr>
-                <th scope="row">Large Yard / Heavy Waste</th>
-                <td>$50</td>
+                <td>2 Pets</td>
+                <td>$20</td>
+                <td>$35</td>
+                <td>$50+</td>
+              </tr>
+              <tr>
+                <td>3+ Pets</td>
+                <td>$25</td>
+                <td>$45</td>
+                <td>$50+</td>
               </tr>
             </tbody>
           </table>
         </div>
+      </div>
+      <div class="pricing-container">
+        <div class="pricing-style">
+          <h3>One-Time Cleanups</h3>
+          <div class="table-wrapper">
+            <table>
+              <caption class="sr-only">
+                One-Time Cleanup Pricing
+              </caption>
+
+              <tbody>
+                <tr>
+                  <th scope="row">Small Yard / Light Waste</th>
+                  <td>$30</td>
+                </tr>
+                <tr>
+                  <th scope="row">Large Yard / Heavy Waste</th>
+                  <td>$50</td>
+                </tr>
+              </tbody>
+            </table>
+          </div>
+        </div>
         <div class="pricing-style">
           <h3>Add-Ons</h3>
-
-          <table>
+          <div class="table-wrapper">
+                      <table>
             <caption class="sr-only">
               Add-On Pricing
             </caption>
@@ -243,6 +253,8 @@
               </tr>
             </tbody>
           </table>
+
+          </div>
         </div>
       </div>
     </section>
@@ -381,12 +393,10 @@
       </div>
     </footer>
 
-
     <!-- Scripts -->
     <script src="contact-form.js" defer></script>
 
     <!-- Load reCAPTCHA script -->
     <script src="https://www.google.com/recaptcha/api.js" async defer></script>
-
   </body>
 </html>

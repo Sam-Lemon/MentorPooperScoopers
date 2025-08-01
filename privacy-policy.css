@@ -145,6 +145,14 @@ footer {
   font-size: 1.5rem;
 }
 
+.social-links a {
+  color: var(--primary-text);
+}
+
 .social-links a:hover {
   color: rgba(0, 0, 0, 0.3);
+}
+
+.social-links:visited {
+    color: var(--primary-text);
 }
