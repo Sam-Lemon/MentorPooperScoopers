@@ -331,10 +331,10 @@ header nav a:active {
   overflow-x: auto;
   -webkit-overflow-scrolling: touch;
 
-  background: linear-gradient(to right, var(--secondary-bg) 0%, transparent 5%),
+  /* background: linear-gradient(to right, var(--secondary-bg) 0%, transparent 5%),
     linear-gradient(to left, var(--secondary-bg) 100%, transparent 95%);
   background-size: 100% 100%;
-  background-repeat: no-repeat;
+  background-repeat: no-repeat; */
 }
 
 .table-wrapper::after {
@@ -344,7 +344,7 @@ header nav a:active {
   top: 0;
   height: 100%;
   width: 20px;
-  background: linear-gradient(to left, var(--secondary-bg), transparent);
+  /* background: linear-gradient(to left, var(--secondary-bg), transparent); */
   pointer-events: none;
 }
 
