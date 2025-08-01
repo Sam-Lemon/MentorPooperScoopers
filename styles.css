@@ -424,6 +424,13 @@ footer {
 
 .privacy-policy a {
   text-decoration: none;
+  font-family: "DS Sans", sans-serif;
+}
+
+.copyright {
+  text-align: center;
+  font-family: "DS Sans", sans-serif;
+  font-size: .75rem;
 }
 
 

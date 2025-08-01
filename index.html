@@ -7,18 +7,76 @@
       name="description"
       content="Mentor Pooper Scoopers offers professional dog and cat waste removal services."
     />
+    <!-- Favicons -->
+    <link rel="icon" href="images/poopEmoji.png" type="image/png" />
+    <link rel="icon" href="images/poopEmoji.ico" type="image/x-icon" />
+
     <title>Mentor Pooper Scoopers</title>
+
+    <!-- Style Sheets -->
     <link rel="stylesheet" href="styles.css" />
     <link
       rel="stylesheet"
       href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
     />
+
+    <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com" />
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
     <link
       href="https://fonts.googleapis.com/css2?family=Bree+Serif&family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&display=swap"
       rel="stylesheet"
     />
+
+    <!-- Structured Data -->
+    <script type="application/ld+json">
+      {
+        "@context": "https://schema.org",
+        "@type": "LocalBusiness",
+        "name": "Mentor Pooper Scoopers",
+        "description": "Professional dog and cat waste removal services in Mentor, OH.",
+        "url": "https://yourdomain.com",
+        "logo": "https://yourdomain.com/images/logo.jpg",
+        "telephone": "+14407670302",
+        "address": {
+          "@type": "PostalAddress",
+          "addressLocality": "Mentor",
+          "addressRegion": "OH",
+          "addressCountry": "US"
+        },
+        "areaServed": {
+          "@type": "Place",
+          "name": "Northeast Ohio"
+        }
+      }
+    </script>
+
+    <!-- Open Graph -->
+    <meta property="og:title" content="Mentor Pooper Scoopers" />
+    <meta
+      property="og:description"
+      content="Pet waste removal services for dogs and cats in Mentor, OH. First service free for new clients!"
+    />
+    <meta
+      property="og:image"
+      content="https://yourdomain.com/images/logo.jpg"
+    />
+    <meta property="og:url" content="https://yourdomain.com" />
+    <meta property="og:type" content="website" />
+
+    <!-- Twitter Card -->
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Mentor Pooper Scoopers" />
+    <meta
+      name="twitter:description"
+      content="Dog and cat waste removal services in Mentor, OH. Book your first free cleanup today!"
+    />
+    <meta
+      name="twitter:image"
+      content="https://yourdomain.com/images/logo.jpg"
+    />
+
+    <meta name="robots" content="index, follow" />
   </head>
   <body>
     <header id="home">
@@ -29,13 +87,13 @@
         loading="lazy"
       />
       <nav>
-        <a href="#main-content" class="nav-button">Home</a>
-        <a href="#services" class="nav-button">Services</a>
-        <a href="#pricing" class="nav-button">Pricing</a>
+        <a href="#main-content" class="nav-button">Home - Pet Waste Removal</a>
+        <a href="#services" class="nav-button">Our Services</a>
+        <a href="#pricing" class="nav-button">Service Pricing</a>
       </nav>
     </header>
     <!-- Wave SVG -->
-    <div class="wave">
+    <div class="wave" aria-hidden="true">
       <svg
         viewBox="0 0 1440 100"
         xmlns="http://www.w3.org/2000/svg"
@@ -190,7 +248,7 @@
     </section>
     <!-- ADD TESTIMONIALS SECTION -->
     <!-- <section class="testimonials"></section> -->
-    <div class="wave footer-wave">
+    <div class="wave footer-wave" aria-hidden="true">
       <svg
         viewBox="0 0 1440 100"
         xmlns="http://www.w3.org/2000/svg"
@@ -315,6 +373,11 @@
 
           <input type="submit" value="Submit" />
         </form>
+      </div>
+
+      <div class="copyright">
+        <p>&copy; 2025 Mentor Pooper Scoopers. All rights reserved.</p>
+        <p>Website by Sam Lemon</p>
       </div>
     </footer>
 
